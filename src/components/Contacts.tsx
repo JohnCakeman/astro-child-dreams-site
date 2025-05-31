@@ -1,5 +1,5 @@
 
-import { Telegram } from "lucide-react";
+import { Send } from "lucide-react";
 
 const Contacts = () => {
   return (
@@ -19,7 +19,7 @@ const Contacts = () => {
               href="https://t.me/+7UrXiA62gZ45NDky"
               className="magic-button inline-flex items-center space-x-3"
             >
-              <Telegram className="w-6 h-6" />
+              <Send className="w-6 h-6" />
               <span>Связаться в Telegram</span>
             </a>
             
