@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -13,6 +14,16 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      {/* Fixed background video for entire site */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="fixed inset-0 w-full h-full object-cover z-0"
+      >
+        <source src="/lovable-uploads/mishka.mp4" type="video/mp4" />
+      </video>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />

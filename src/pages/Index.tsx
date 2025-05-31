@@ -16,7 +16,7 @@ const Index = () => {
   const [selectedPlanet, setSelectedPlanet] = useState<string | null>(null);
 
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen relative z-10">
       <Header />
       <main>
         <Hero />
