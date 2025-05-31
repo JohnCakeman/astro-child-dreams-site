@@ -1,6 +1,20 @@
+
 const Hero = () => {
-  return <section className="min-h-screen flex items-center justify-center pt-20 pb-10">
-      <div className="container mx-auto px-4 text-center">
+  return (
+    <section className="min-h-screen flex items-center justify-center pt-20 pb-10 relative overflow-hidden">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      >
+        <source src="/lovable-uploads/mishka.mp4" type="video/mp4" />
+      </video>
+      
+      {/* Content overlay */}
+      <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto magic-backdrop rounded-3xl p-8 md:p-12 animate-fade-in bg-[#b49fc5]/[0.51]">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold magic-text mb-6 font-caveat leading-tight">
             Детская Астрология: Основы компенсаторики и гармонизации от А до Я
@@ -16,6 +30,8 @@ const Hero = () => {
           </a>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;
