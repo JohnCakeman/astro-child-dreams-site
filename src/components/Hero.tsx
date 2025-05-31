@@ -1,9 +1,7 @@
-
 const Hero = () => {
-  return (
-    <section className="min-h-screen flex items-center justify-center pt-20 pb-10">
+  return <section className="min-h-screen flex items-center justify-center pt-20 pb-10">
       <div className="container mx-auto px-4 text-center">
-        <div className="max-w-4xl mx-auto magic-backdrop rounded-3xl p-8 md:p-12 animate-fade-in">
+        <div className="max-w-4xl mx-auto magic-backdrop rounded-3xl p-8 md:p-12 animate-fade-in bg-[#b49fc5]/[0.51]">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold magic-text mb-6 font-caveat leading-tight">
             Детская Астрология: Основы компенсаторики и гармонизации от А до Я
           </h1>
@@ -13,16 +11,11 @@ const Hero = () => {
             и проверенные методики компенсации
           </p>
           
-          <a
-            href="https://t.me/+7UrXiA62gZ45NDky"
-            className="magic-button inline-block animate-glow"
-          >
+          <a href="https://t.me/+7UrXiA62gZ45NDky" className="magic-button inline-block animate-glow">
             Купить пособие
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
