@@ -1,13 +1,9 @@
-
 import { Star } from "lucide-react";
-
 const ForWhom = () => {
-  return (
-    <section id="for-whom" className="py-16 md:py-24">
+  return <section id="for-whom" className="py-16 md:py-24">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold magic-text mb-12 text-center font-caveat">
-          Для кого это пособие
-        </h2>
+      </h2>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <div className="magic-backdrop rounded-3xl p-8 animate-fade-in hover:scale-105 transition-transform duration-300">
@@ -38,8 +34,6 @@ const ForWhom = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ForWhom;
