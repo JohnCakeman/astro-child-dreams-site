@@ -1,20 +1,13 @@
-
 const AboutAuthor = () => {
-  return (
-    <section id="author" className="py-16 md:py-24">
+  return <section id="author" className="py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto magic-backdrop rounded-3xl p-8 md:p-12 animate-fade-in">
+        <div className="max-w-6xl mx-auto magic-backdrop rounded-3xl p-8 md:p-12 animate-fade-in bg-[#b49fc5]/[0.51]">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             <div className="flex-shrink-0">
-              <img
-                src="/lovable-uploads/7e7d6bef-82f0-47c8-a230-153e206fdaa1.png"
-                alt="Лолита Никольская"
-                className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover floating-element"
-                style={{
-                  boxShadow: '0 0 30px rgba(147, 51, 234, 0.3)',
-                  border: '4px solid rgba(255, 255, 255, 0.8)'
-                }}
-              />
+              <img src="/lovable-uploads/7e7d6bef-82f0-47c8-a230-153e206fdaa1.png" alt="Лолита Никольская" className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover floating-element" style={{
+              boxShadow: '0 0 30px rgba(147, 51, 234, 0.3)',
+              border: '4px solid rgba(255, 255, 255, 0.8)'
+            }} />
             </div>
             
             <div className="flex-1 text-center lg:text-left">
@@ -39,10 +32,7 @@ const AboutAuthor = () => {
                   Сертифицированный детский астролог
                 </p>
                 
-                <a
-                  href="https://t.me/+7UrXiA62gZ45NDky"
-                  className="inline-block magic-button"
-                >
+                <a href="https://t.me/+7UrXiA62gZ45NDky" className="inline-block magic-button">
                   Телеграм-канал
                 </a>
               </div>
@@ -50,8 +40,6 @@ const AboutAuthor = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutAuthor;
