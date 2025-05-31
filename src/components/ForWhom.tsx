@@ -6,7 +6,7 @@ const ForWhom = () => {
       </h2>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          <div className="magic-backdrop rounded-3xl p-8 animate-fade-in hover:scale-105 transition-transform duration-300">
+          <div className="magic-backdrop rounded-3xl p-8 animate-fade-in hover:scale-105 transition-transform duration-300 bg-[#b49fc5]/[0.51]">
             <div className="text-center mb-6">
               <Star className="w-12 h-12 text-purple-600 mx-auto mb-4 twinkling-star" />
               <h3 className="text-2xl font-bold magic-text font-caveat">
@@ -20,7 +20,7 @@ const ForWhom = () => {
             </p>
           </div>
           
-          <div className="magic-backdrop rounded-3xl p-8 animate-fade-in hover:scale-105 transition-transform duration-300">
+          <div className="magic-backdrop rounded-3xl p-8 animate-fade-in hover:scale-105 transition-transform duration-300 bg-[#b49fc5]/[0.51]">
             <div className="text-center mb-6">
               <Star className="w-12 h-12 text-purple-600 mx-auto mb-4 twinkling-star" />
               <h3 className="text-2xl font-bold magic-text font-caveat">
