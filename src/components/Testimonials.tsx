@@ -57,7 +57,7 @@ const Testimonials = () => {
             transform: `translateX(-${currentSlide * 100}%)`
           }}>
               {testimonials.map((testimonial, index) => <div key={index} className="w-full flex-shrink-0 px-4">
-                  <div className="testimonial-card text-center bg-[#b49fc5]/[0.51]">
+                  <div className="testimonial-card text-center bg-[#cfc5dd]/85">
                     <div className="text-4xl mb-4">{testimonial.avatar}</div>
                     <h4 className="text-xl font-bold magic-text mb-2">
                       {testimonial.name}
