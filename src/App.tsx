@@ -22,7 +22,7 @@ const App = () => (
         playsInline
         className="fixed inset-0 w-full h-full object-cover z-0"
       >
-        <source src="/lovable-uploads/mishka.mp4" type="video/mp4" />
+        <source src={`/lovable-uploads/mishka.mp4?v=${Date.now()}`} type="video/mp4" />
       </video>
       <BrowserRouter>
         <Routes>
