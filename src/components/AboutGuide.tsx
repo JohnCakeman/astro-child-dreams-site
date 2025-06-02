@@ -51,18 +51,7 @@ const AboutGuide = ({
             </p>
             
             {/* Planets Video */}
-            <div className="max-w-full mx-auto rounded-2xl overflow-hidden" style={{
-            maxHeight: '400px',
-            boxShadow: '0 0 30px rgba(147, 51, 234, 0.2)',
-            border: '3px solid rgba(255, 255, 255, 0.6)'
-          }}>
-              <video autoPlay loop muted playsInline className="w-full h-auto floating-element" style={{
-              maxHeight: '400px',
-              objectFit: 'cover'
-            }}>
-                <source src="/lovable-uploads/planets.mp4" type="video/mp4" />
-              </video>
-            </div>
+            
           </div>
         </div>
       </div>
