@@ -3,7 +3,7 @@ const Benefits = () => {
   const benefits = ["Авторская методика, проверенная на практике", "Пошаговые техники для всех возрастов", "Глубокий разбор негармоничных аспектов", "Практические рекомендации для реальных ситуаций", "Пожизненный доступ к PDF-материалам", "Подходит для специалистов и родителей"];
   return <section id="benefits" className="py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto magic-backdrop rounded-3xl p-8 md:p-12 animate-fade-in bg-[#b49fc5]/[0.51]">
+        <div className="max-w-4xl mx-auto magic-backdrop rounded-3xl p-8 md:p-12 animate-fade-in bg-[#cfc5dd]/85">
           <h2 className="text-3xl md:text-4xl font-bold magic-text mb-12 text-center font-caveat">
             Почему выбирают это пособие?
           </h2>
